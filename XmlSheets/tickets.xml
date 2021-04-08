@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">
+  <ticket number="1">
+    <userId>25739</userId>
+    <!-- Who posted it , the user-->
+    <category>Shipping</category>
+    <!-- General,Payment,Shipping,Returns,Account -->
+    <dateofIssue>2021-02-06T06:00:10</dateofIssue>
+    <subject>My item never arrived</subject>
+    <status>open</status>
+    <!-- Open,closed,resolved,on-going,pending-->
+    <messages>
+      <message userId="25739" userType="client">
+        <!-- UserId is who posted the message-->
+        <dateTime>2021-02-06T06:22:11</dateTime>
+        <description>Item arrived broken</description>
+      </message>
+      <message userId="25739" userType="admin">
+        <dateTime>2021-02-06T17:51:44</dateTime>
+        <description>Hello?</description>
+      </message>
+      <message userId="74859" userType="admin">
+        <dateTime>2021-02-06T18:53:36</dateTime>
+        <description>Your ticket is being looked upon by our team</description>
+      </message>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-08T06:40:42</dateTime>
+        <description>Please give a reply</description>
+      </message>
+    </messages>
+  </ticket>
+  <ticket number="2">
+    <userId>25740</userId>
+    <category>Payment</category>
+    <dateofIssue>2021-02-05T05:00:44</dateofIssue>
+    <subject>My payment has still not been processed</subject>
+    <status>open</status>
+    <messages>
+      <message userId="25740" userType="client">
+        <!-- UserId is who posted the message-->
+        <dateTime>2021-02-06T05:22:11</dateTime>
+        <description>Payment still not processed</description>
+      </message>
+      <message userId="75452" userType="admin">
+        <dateTime>2021-02-06T17:51:44</dateTime>
+        <description>We are looking into the issue.Please wait until the issue is looked upon</description>
+      </message>
+      <message userId="75452" userType="admin">
+        <dateTime>2021-02-06T18:53:36</dateTime>
+        <description>Please update a screenshot of the payment you made</description>
+      </message>
+    </messages>
+  </ticket>
+  <ticket number="3">
+    <userId>25741</userId>
+    <category>Returns</category>
+    <dateofIssue>2021-02-04T06:00:00</dateofIssue>
+    <subject>Returning my item</subject>
+    <status>pending</status>
+    <messages>
+      <message userId="25741" userType="client">
+        <!-- UserId is who posted the message-->
+        <dateTime>2021-02-04T02:22:11</dateTime>
+        <description>Return Payment still not processed</description>
+      </message>
+      <message userId="75452" userType="admin">
+        <dateTime>2021-02-04T17:51:44</dateTime>
+        <description>We are looking into the issue.Please wait until the issue is looked upon</description>
+      </message>
+      <message userId="75452" userType="admin">
+        <dateTime>2021-02-04T18:53:36</dateTime>
+        <description>Please update a screenshot of the return you booked</description>
+      </message>
+    </messages>
+  </ticket>
+  <ticket number="4">
+    <userId>25739</userId>
+    <category>Account</category>
+    <dateofIssue>2021-04-06T07:19:25</dateofIssue>
+    <subject>new subject</subject>
+    <status>open</status>
+    <messages>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-06T07:19:25</dateTime>
+        <description>dasdas</description>
+      </message>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-07T03:19:07</dateTime>
+        <description>hi</description>
+      </message>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-07T03:22:13</dateTime>
+        <description>Hello ?</description>
+      </message>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-07T03:25:24</dateTime>
+        <description>Hello again ?</description>
+      </message>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-07T03:25:47</dateTime>
+        <description>Hello </description>
+      </message>
+      <message userId="74859" userType="admin">
+        <dateTime>2021-04-07T03:30:00</dateTime>
+        <description>Will be resolved now</description>
+      </message>
+    </messages>
+  </ticket>
+  <ticket number="5">
+    <userId>25740</userId>
+    <category>Payment</category>
+    <dateofIssue>2021-04-08T07:20:50</dateofIssue>
+    <subject>Payment not processed</subject>
+    <status>open</status>
+    <messages>
+      <message userId="25740" userType="client">
+        <dateTime>2021-04-08T07:20:50</dateTime>
+        <description>Please have a look</description>
+      </message>
+    </messages>
+  </ticket>
+  <ticket number="6">
+    <userId>25739</userId>
+    <category>General</category>
+    <dateofIssue>2021-04-08T07:32:13</dateofIssue>
+    <subject>Not able to pick a return parcel</subject>
+    <status>open</status>
+    <messages>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-08T07:32:13</dateTime>
+        <description>Please get back asap</description>
+      </message>
+    </messages>
+  </ticket>
+  <ticket number="7">
+    <userId>25739</userId>
+    <category>Returns</category>
+    <dateofIssue>2021-04-08T06:30:03</dateofIssue>
+    <subject>New Subject</subject>
+    <status>open</status>
+    <messages>
+      <message userId="25739" userType="client">
+        <dateTime>2021-04-08T06:30:03</dateTime>
+        <description>Application not returned</description>
+      </message>
+      <message userId="74859" userType="admin">
+        <dateTime>2021-04-08T06:35:02</dateTime>
+        <description>checking from our side</description>
+      </message>
+    </messages>
+  </ticket>
+</tickets>

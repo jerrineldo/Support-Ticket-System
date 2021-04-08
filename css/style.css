@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+body{
+    
+    margin: 0 auto !important;
+    background-color: #CED4DA !important;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.align-right {
+    margin-right: 20px  !important;
+    margin-top: 8px !important;
+    background-color: #DEE2E6;
+    color: #212529;
+
+}
+
+.logout-content{
+
+    width: 60%;
+    height: 235px;
+    margin: 16px auto;
+    border: 1px solid black;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+.navbar-username{
+
+    margin: 0;
+    margin-right: 20px;
+}
+.align-right:hover {
+
+    background-color: #ADB5BD;
+    color: black;
+
+}
+.main-loginpage {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+}
+
+.login-form {
+    background-color: rgb(152, 157, 183,0.7);
+    width: 400px;
+    height: 450px;
+    margin: 160px auto;
+    padding: 10px;
+}
+.logo {
+    height: 38px;
+    background-color: #DEE2E6;
+    width: 65px !important;
+    margin-top: 6px;
+}
+.login-form__mainheading {
+    text-align: center;
+}
+
+.login-form__inputfields {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.loginform__errormessage{
+    color:red;
+    margin-left: 29px;
+    padding: 0;
+}
+
+.tickets-container{
+
+    background-color: #F8F9FA;
+    width: 80%;
+    margin: 16px auto;
+    border: 1px solid black;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+
+.margindown{
+    margin-bottom: 20px;
+}
+
+.addticket-container{
+
+    margin: 0 auto;
+    width: 80%;
+
+}
+.ticketdetails-container{
+
+    margin: 0 auto;
+    width: 80%;
+}
+.center{
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    background: transparent;
+    border: none;
+    height: 40px;
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 5px;
+    color: black;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    opacity: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login-form__submitbutton {
+    color: #2f3858;
+    background-color: #ffffff;
+    border: none;
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 140px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.login-form__submitbutton:hover {
+    cursor: pointer;
+    background-color: #2f3858;
+    color: #ffffff;
+}
+
+.login-form__createLink {
+    text-align: center;
+    margin-top: 15px;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    color: white;
+}
+
+.loginform__errormessage{
+    color:red;
+    margin-left: 29px;
+    padding: 0;
+}
+
+/*==============4.FOOTER=================*/
+.footer {
+    width: 100%;
+    background-color: #222222;
+    color: #9d9d9d;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    overflow: hidden;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="users">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="user" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="userName" type="userName"/>
+              <xs:element name="password" type="password"/>
+              <xs:element name="name">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="firstName" type="xs:string"/>
+                    <xs:element name="middleName" minOccurs="0" type="xs:string"/>
+                    <xs:element name="lastName" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="userId" type="xs:positiveInteger"/>
+              <xs:element name="emailId" type="emailAddress"/>
+              <xs:element name="phoneNumber" type="phoneNumber"/>
+            </xs:sequence>
+            <xs:attribute name="userType" type="userType"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="userType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="client"/>
+          <xs:enumeration value="admin"/>
+        </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="emailAddress">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[A-Za-z0-9_]+([-+.'][A-Za-z0-9_]+)*@[A-Za-z0-9_]+([-.][A-Za-z0-9_]+)*\.[A-Za-z0-9_]+([-.][A-Za-z0-9_]+)*"/>
+    </xs:restriction>
+  </xs:simpleType>  
+  <xs:simpleType name="phoneNumber">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="(\d{10})"/>
+    </xs:restriction>
+  </xs:simpleType>  
+  <xs:simpleType name="userName">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[A-Za-z0-9_]{3,16}"/>
+    </xs:restriction>
+  </xs:simpleType>  
+  <xs:simpleType name="password">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[a-z0-9]{32}"/>
+    </xs:restriction>
+  </xs:simpleType>  
+</xs:schema>

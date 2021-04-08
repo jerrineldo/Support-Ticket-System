@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="users.xsd">
+    <user userType="client">
+        <userName>jerrin_eldo</userName>
+        <password>c4c7d36785acfb71c31405b13a19afd2</password> <!-- Jerineldo123-->
+        <name>
+            <firstName>Jerrin</firstName>
+            <middleName>Eldo</middleName>
+            <lastName>Mazhuvancherry</lastName>
+        </name>
+        <userId>25739</userId>
+        <emailId>jerin.jollybhavan@gmail.com</emailId>
+        <phoneNumber>6479399200</phoneNumber>
+    </user>
+    <user userType="client">
+        <userName>harryjohnson</userName>
+        <password>f0eae7514d42cf58b903214c151fca3d</password> <!-- hey1234-->
+        <name>
+            <firstName>Harry</firstName>
+            <lastName>Johnson</lastName>
+        </name>
+        <userId>25740</userId>
+        <emailId>harryjohnson@gmail.com</emailId>
+        <phoneNumber>7012882364</phoneNumber>
+    </user>
+    <user userType="admin">
+        <userName>eapenjose</userName>
+        <password>8100e91e1f53d7dc6030b6ca5015f21c</password> <!-- hey234-->
+        <name>
+            <firstName>Eapen</firstName>
+            <lastName>Jose</lastName>
+        </name>
+        <userId>74859</userId>
+        <emailId>eapen.jose@gmail.com</emailId>
+        <phoneNumber>7012822656</phoneNumber>
+    </user>
+    <user userType="admin">
+        <userName>eldopaul</userName>
+        <password>8100e91e1f53d7dc6030b6ca5015f21c</password> <!-- hey234-->
+        <name>
+            <firstName>Eldo</firstName>
+            <lastName>Paul</lastName>
+        </name>
+        <userId>75452</userId>
+        <emailId>eldo.paul@gmail.com</emailId>
+        <phoneNumber>7012824556</phoneNumber>
+    </user>
+</users>
