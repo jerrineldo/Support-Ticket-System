@@ -19,8 +19,8 @@
 #### Ticket List for Users
 ![TicketListUser](./screenshots/TicketList.PNG)
 #### Ticket Details
-![TicketDetails](/screenshots/TicketDetails.png)
+![TicketDetails](./screenshots/TicketDetails.PNG)
 #### Add a Ticket
-![TicketDetails](/screenshots/AddTicket.png)
+![TicketDetails](./screenshots/AddTicket.PNG)
 #### Logout
-![Logout](/screenshots/Logout.png)
+![Logout](./screenshots/Logout.PNG)
