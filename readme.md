@@ -16,10 +16,11 @@
 #### Login Page
 
 ![Login](screenshots/Login.jpeg)
-![TicketListUser](screenshots/TicketList.jpg)
-#### Ticket List for Admins
-![TicketListAdmin](screenshots/TicketList-Admin.jpg)
+#### Ticket List for Users
+![TicketListUser](screenshots/TicketList.png)
 #### Ticket Details
-![TicketDetails](screenshots/TicketDetails.jpg)
+![TicketDetails](screenshots/TicketDetails.png)
+#### Add a Ticket
+![TicketDetails](screenshots/AddTicket.png)
 #### Logout
-![Logout](screenshots/Logout.jpg)
+![Logout](screenshots/Logout.png)
