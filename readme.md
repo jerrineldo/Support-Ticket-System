@@ -16,7 +16,6 @@
 #### Login Page
 
 ![Login](screenshots/Login.jpeg)
-#### Ticket List for Users
 ![TicketListUser](screenshots/TicketList.jpg)
 #### Ticket List for Admins
 ![TicketListAdmin](screenshots/TicketList-Admin.jpg)
