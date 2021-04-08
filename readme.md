@@ -15,12 +15,12 @@
 
 #### Login Page
 
-![Login](screenshots/Login.jpeg)
+![Login](/screenshots/Login.jpeg)
 #### Ticket List for Users
-![TicketListUser](screenshots/TicketList.png)
+![TicketListUser](/screenshots/TicketList.png)
 #### Ticket Details
-![TicketDetails](screenshots/TicketDetails.png)
+![TicketDetails](/screenshots/TicketDetails.png)
 #### Add a Ticket
-![TicketDetails](screenshots/AddTicket.png)
+![TicketDetails](/screenshots/AddTicket.png)
 #### Logout
-![Logout](screenshots/Logout.png)
+![Logout](/screenshots/Logout.png)
